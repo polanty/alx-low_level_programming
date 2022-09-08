@@ -2,7 +2,7 @@
 /*
  * main - Entry point
  *
- * Descripion: prints "with proper grammer,but the outcome is a piece of art'\,"
+ * Descripion: prints "with proper grammer,but the outcome is a piece of art,"
  *
  * Return : Always 0 (Sucess)
  */
