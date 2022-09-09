@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -22,18 +21,10 @@
  * Return: Always 0 (Success)
 
  */
-
-
-
 int main(void)
-
 {
 
 int n;
-
-
-
-
 
 srand(time(0));
 
@@ -50,7 +41,6 @@ printf("%d is negative\n", n);
 else
 
 printf("%d is positive\n", n);
-
 
 
 return (0);
