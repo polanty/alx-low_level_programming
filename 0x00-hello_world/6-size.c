@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *  mai:n print the types of various files
+ * main - print the size of various types
+
+ * Description: prints the size of various types on the computer 
  *
- * Description: prints the size of various types on the computer it is compiled 
- *
- *  Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
