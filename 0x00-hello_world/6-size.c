@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *  main print the types of various files
+ *  mai:n print the types of various files
  *
- * Description: prints "the size of various types on the computer it is compiled and run on"
+ * Description: prints the size of various types on the computer it is compiled 
  *
  *  Return: Always 0 (Success)
  */
