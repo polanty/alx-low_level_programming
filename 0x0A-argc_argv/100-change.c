@@ -26,3 +26,41 @@ int main(int argc, char *argv[])
 	printf("%d\n", count);
 	return (0);
 }
+/**
+ * coin_count - counts the min coins needed for change
+ *
+ * @count: int to count coins
+ * @num: argv[1] changed to int
+ * Return: int
+ */
+unsigned int coin_count(unsigned int count, int num)
+{
+	unsigned int sum = 0;
+
+	while (!(sum + 25 > (unsigned int)num))
+	{
+		sum += 25;
+		count++;
+	}
+	while (!(sum + 10 > (unsigned int)num))
+	{
+		sum += 10;
+		count++;
+	}
+	while (!(sum + 5 > (unsigned int)num))
+	{
+		sum += 5;
+		count++;
+	}
+	while (!(sum + 2 > (unsigned int)num))
+	{
+		sum += 2;
+		count++;
+	}
+	while (!(sum + 1 > (unsigned int)num))
+	{
+		sum += 1;
+		count++;
+	}
+	return (count);
+}
